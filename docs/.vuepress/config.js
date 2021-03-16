@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/docs/', //线上路径 
     theme: 'reco',
     themeConfig: {
         type: 'blog',
