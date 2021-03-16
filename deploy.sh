@@ -7,7 +7,10 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd ./docs/.vuepress/dist
+cd ./dist/docs
+
+#生成域名重定向文件，提交后该文件会被覆盖，需要重新设置，本地创建提交
+echo 700b.cn >./CNAME 
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME

@@ -1,6 +1,7 @@
 module.exports = {
-    base: '/docs/', //线上路径 
+    // base: '/blog/', //线上路径 
     theme: 'reco',
+    dest:'./dist/docs',  //打包路径从根目录开始
     themeConfig: {
         type: 'blog',
         friendLink: [

@@ -1,6 +1,5 @@
 ---
 home: true
-heroImage: /hero.png
 heroImageStyle: {
   maxHeight: '200px',
   display: block,
